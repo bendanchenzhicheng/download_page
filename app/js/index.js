@@ -2,7 +2,7 @@
 function download(){
 	var isWeChat = is_weChat();
 	if(isWeChat){
-		$('.message').removeClass('hidden');
+		$('.message-block').removeClass('hidden');
 	}else{
 		window.open('http://www.73go.cn/download/tp/tptcr.apk');
 	}
