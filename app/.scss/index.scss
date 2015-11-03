@@ -14,7 +14,7 @@
 #downloadApp {
     width: 90%;
     height: 50px;
-    font-size: 25px;
+    font-size: 16px;
     color: white;
     border-radius: 10px;
     background-color: #2196f3;
@@ -39,7 +39,7 @@
     opacity: 0.7;
     .message {
         display: table;
-        width: 97%;
+        width: 87%;
         background-color: white;
         margin: auto;
         border-radius: 5px;
@@ -47,7 +47,7 @@
         z-index: 10;
         .left-text {
             display: table-cell;
-            font: 20px solid;
+            font: 14px solid;
             width: 90%;
             vertical-align: top;
         }
