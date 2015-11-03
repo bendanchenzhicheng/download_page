@@ -4,8 +4,8 @@ function download(){
 	if(isWeChat){
 		$('.message-block').removeClass('hidden');
 	}else{
-		// window.open('http://www.73go.cn/download/tp/tptcr.apk');
-		window.open('http://www.73go.cn/download/73go/73gotcr.apk');
+		window.open('http://www.73go.cn/download/tp/tptcr.apk');
+		// window.open('http://www.73go.cn/download/73go/73gotcr.apk');
 	}
 }
 
