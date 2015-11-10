@@ -4,7 +4,8 @@ var gulp = require('gulp'),
   htmlmin = require('gulp-htmlmin'),
   uglify = require('gulp-uglify'),
   cssmin = require('gulp-cssmin'),
-  del = require('del');
+  del = require('del'),
+  rjs = require('gulp-requirejs');
 
 gulp.task('sass', function () {
   return sass('app/.scss/*.scss')
@@ -26,6 +27,8 @@ gulp.task('server', function() {
 gulp.task('watch:sass', function(){
   gulp.watch('app/.scss/*.scss', ['sass'])
 });
+
+gulp.task('watch', ['server', 'watch:sass']);
   
 gulp.task('default', function() {
 });
